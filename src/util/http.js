@@ -1,4 +1,4 @@
-export async function fetchEvents(searchTerm) {
+export async function fetchEvents({ siganl, searchTerm }) {
   let url = "http://localhost:3000/events";
 
   if (searchTerm) {
